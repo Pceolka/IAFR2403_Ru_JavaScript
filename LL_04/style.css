@@ -1,0 +1,8 @@
+input:invalid, select:invalid {
+    border: 1px solid red;
+  }
+  
+  input:valid, select:valid {
+    border: 1px solid green;
+  }
+  

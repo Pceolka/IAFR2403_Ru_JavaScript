@@ -3,4 +3,8 @@ My university assignments for JavaScript
 by student Evghenii Spataru IAFR2403 Ru                     
 
     The assignments are already finished:     
-        -LL_01                              
+        -LI
+        -LL_01  
+        -LL_02       
+        -LL_03  
+        -LL_04 var1             

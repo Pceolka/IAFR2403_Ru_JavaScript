@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Транзакции</title>
+  <script type="module" src="src/index.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Транзакции</h1>
+
+  <table id="transaction-table" border="1">
+    <thead>
+      <tr>
+        <th>Дата и Время</th>
+        <th>Категория</th>
+        <th>Описание</th>
+        <th>Действие</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <p><strong>Общая сумма:</strong> <span id="total-amount">0</span></p>
+
+  <p><strong>Полное описание:</strong> <span id="full-description">—</span></p>
+
+  <h2>Добавить транзакцию</h2>
+  <form id="transaction-form">
+    <input type="number" id="amount" placeholder="Сумма" required />
+    <select id="category">
+      <option value="Еда">Еда</option>
+      <option value="Транспорт">Транспорт</option>
+      <option value="Развлечения">Развлечения</option>
+      <option value="Доход">Доход</option>
+    </select>
+    <input type="text" id="description" placeholder="Описание" required />
+    <button type="submit">Добавить</button>
+  </form>
+  <p id="form-error" style="color: red;"></p>
+
+</body>
+</html>

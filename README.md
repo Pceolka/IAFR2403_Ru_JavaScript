@@ -7,4 +7,8 @@ by student Evghenii Spataru IAFR2403 Ru
         -LL_01  
         -LL_02       
         -LL_03  
-        -LL_04 var1             
+        -LL_04 var1       
+        -JS01
+        -JS02
+        -JS03
+              
